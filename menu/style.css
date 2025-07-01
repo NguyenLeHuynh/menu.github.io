@@ -1,0 +1,59 @@
+﻿body {
+   font-family: sans-serif;
+   margin: 0;
+   background: #fffefb;
+   color: #333;
+}
+
+header {
+   background: #ffe0b2;
+   padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+
+.nav-buttons {
+    margin-top: 15px;
+}
+
+    .nav-buttons button {
+        margin: 5px;
+        padding: 8px 16px;
+        border: none;
+        background-color: #ff9800;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .nav-buttons button:hover {
+            background-color: #fb8c00;
+        }
+
+.swiper {
+    width: 110%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    background-color: #fff3e0;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+    .swiper-slide h2 {
+        margin-bottom: 20px;
+        color: #6d4c41;
+    }
+
+  .swiper-slide ul {
+        list-style: none;
+        padding: 0;
+        font-size: 1.1rem;
+        line-height: 2;
+    }

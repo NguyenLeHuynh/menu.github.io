@@ -1,0 +1,3 @@
+C:\Users\sinhvien\Desktop\Huynhh\menu\obj\Debug\menu.csproj.AssemblyReference.cache
+C:\Users\sinhvien\Desktop\Huynhh\menu\obj\Debug\menu.csproj.SuggestedBindingRedirects.cache
+C:\Users\sinhvien\Desktop\Huynhh\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
