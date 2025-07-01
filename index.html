@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - Tiệm Nhà Táo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍏 Tiệm Nhà Táo</h1>
+        <div class="nav-buttons">
+            <button onclick="goToSlide(0)">🍵 Matcha</button>
+            <button onclick="goToSlide(1)">☕ Coffee</button>
+            <button onclick="goToSlide(2)">🍹 Tea</button>
+            <button onclick="goToSlide(3)">🍮 Topping</button>
+        </div>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Matcha -->
+            <div class="swiper-slide">
+                <h2>🍵 Matcha Nhật</h2>
+                <ul>
+                    <li>Matcha Latte M28k / L35k</li>
+                    <li>Matcha oat silde M28 / L36k </li>
+                    <li>Matcha đậu biêc M28k / L35k </li>
+                    <li>Matcha Sữa gấu L38k </li>
+                </ul>
+            </div>
+
+            <!-- Coffee -->
+            <div class="swiper-slide">
+                <h2>☕ Cà Phê Nguyên Chất</h2>
+                <ul>
+                    <li>
+                        phê đá S15k / M20k
+                    </li>
+ <li>
+     phê sữa đá S18k / M22k
+ </li>
+                    <li>
+                        phê bạc sỉu
+                    </li>
+                    <li>
+                        phê sữa tươi
+                    </li>
+                    <li> sữa hạt 28k </li>
+                </ul>
+            </div>
+
+            <!-- Tea -->
+            <div class="swiper-slide">
+                <h2>🍹 Trà Trái Cây</h2>
+                <ul>
+                    <li>Ổi hồng dâu bưởi M22k / L28k</li>
+                    <li>Trà vải / Việt quất 30k</li>
+                    <li>Chanh đào / Chanh xoài 25k</li>
+                </ul>
+            </div>
+
+            <!-- Topping -->
+            <div class="swiper-slide">
+                <h2>🍮 Topping</h2>
+                <ul>
+                    <li>Trân châu đen</li>
+                    <li>Thạch củ năng</li>
+                    <li>Thạch vải</li>
+                    <li>Thạch matcha</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            direction: "horizontal",
+            loop: false,
+            spaceBetween: 50,
+        });
+
+        function goToSlide(index) {
+            swiper.slideTo(index);
+        }
+    </script>
+</body>
+</html>
